@@ -1,3 +1,78 @@
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+main {
+  padding-top: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+p {
+  color: #555;
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #ff7300, #e900ff); /* Customize gradient colors as needed */
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+/* Footer styles */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.header, .footer {
+  background: linear-gradient(45deg, #ff7300, #e900ff);
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.header a, .footer a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.header a:hover, .footer a:hover {
+  font-size: larger;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #ff7300, 0 2px 4px #e900ff;
 }
